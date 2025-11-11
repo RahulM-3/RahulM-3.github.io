@@ -172,9 +172,11 @@ section {
 
 .section__pic-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: auto;
 }
 
 .section__pic-container img {
@@ -302,12 +304,6 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
-}
-
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
